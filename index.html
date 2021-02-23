@@ -3,8 +3,17 @@
 <head>
 	<title>Τηλεγραμματεία</title>
 </head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 <body>
 	<style>
+
+		body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+ background-size: cover;
+}
 		.navbar {
   overflow: hidden;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
@@ -89,6 +98,57 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	</style>
 
 </body>
-<h1>Telegrammateia.gr<br>Ολοκληρωμένες λύσεις γραμματειακής υποστήριξης και τηλεπικοινωνιακών υπηρεσιών στις πιο χαμηλές τιμές της αγοράς</h1>
+<h1><i>Tele-grammateia.gr</i></h1>
+<h2>Ολοκληρωμένες λύσεις γραμματειακής υποστήριξης και τηλεπικοινωνιακών υπηρεσιών στις πιο χαμηλές τιμές της αγοράς</h2>
+
+<div class="navbar">
+  <a href="#home">Αρχική</a>
+  <a href="#news">Τηλεγραμματεία</a>
+  <a href="#news">Εξυπηρέτηση πελατών – helpdesk</a>
+  <a href="#news">Υπενθύμιση οφειλών – collection</a>
+  <a href="#news">Προώθηση προϊόντων – telemarketing</a>
+  <a href="#news">Επικοινωνία</a>
+  <a href="#news">Συνεργάτες</a>
+   <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Εξυπηρέτηση πελατών – helpdesk</a>
+      <a href="#">υπενθύμιση οφειλών – collection</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 3</div>
+      <img src="slide1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 3</div>
+      <img src="slide2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+      <img src="slide3.png" style="width:100%">
+  </div>
+
+  
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
 
 </html>
